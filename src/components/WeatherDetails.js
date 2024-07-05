@@ -18,7 +18,7 @@ const WeatherDetails = () => {
         type="text"
         value={city}
         onChange={(e) => setCity(e.target.value)}
-        placeholder="Enter city!!"
+        placeholder="Enter city"
       />
       <button onClick={handleSearch}>Search</button>
       {weatherData && <WeatherCard data={weatherData} />}
